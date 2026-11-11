@@ -1,0 +1,11 @@
+@Core11_Otel_HostAddress = http://localhost:5293
+
+GET {{Core11_Otel_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{Core11_Otel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
